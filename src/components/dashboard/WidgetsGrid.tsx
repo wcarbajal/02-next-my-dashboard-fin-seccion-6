@@ -12,8 +12,8 @@ export const WidgetsGrid = () => {
     <div className="flex flex-wrap p-2 justify-center">
     <SimpleWidget 
         title={ `${ isCart }` }
-        subTitle={"Productos agregados"}
-        label={"Contador"} 
+        subTitle= "Productos agregados"
+        label= "Contador"
         icon={ <IoCartOutline size={ 70 } className="text-blue-600" /> }
         href="/dashboard/counter"
      />
