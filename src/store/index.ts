@@ -1,10 +1,12 @@
 import { configureStore } from '@reduxjs/toolkit'
 import contador from "./counter/counterSlice";
+import pokemonReducer from "./pokemons/pokemons";
 import { TypedUseSelectorHook, useDispatch, useSelector } from 'react-redux';
 
 export const store = configureStore({
   reducer: {
    counter: contador,
+   pokemons: pokemonReducer
     
   },
 })
